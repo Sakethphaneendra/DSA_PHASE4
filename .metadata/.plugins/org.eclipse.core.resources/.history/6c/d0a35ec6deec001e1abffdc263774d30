@@ -1,0 +1,42 @@
+package com.JavaCollectionFramework.Vector;
+
+import java.util.*;
+public class VectorOpertion {
+
+	public static void main(String[] args) {
+
+		Vector V = new Vector();	
+		V.add("Y1");
+		V.add("Y2");
+		V.add("Y3");
+		
+		
+		Vector V2 = new Vector(30);	
+		V2.add("S1");
+		V2.add("S2");
+		V2.add("S3");
+		V2.add("S4");
+		
+		V.addAll(V2);
+		
+		System.out.println(V.contains("S2"));
+		V.remove("Y3");
+		System.out.println(V);
+		System.out.println(V2.size() + " \n" + V2.capacity());
+
+		
+		int[] arr = new int[5];
+		arr[0] =3;
+		arr[1] =13;
+		arr[2] =23;
+		arr[3] =33;
+		arr[4] =43;
+//		System.out.println(Arrays.toString(arr));
+		
+		Vector D = new Vector(Arrays.asList(arr));
+		System.out.println(D);
+		
+	}
+
+}
+

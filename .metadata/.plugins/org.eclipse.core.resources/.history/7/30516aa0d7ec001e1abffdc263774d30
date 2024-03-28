@@ -1,0 +1,19 @@
+package com.JavaCollectionFramework.Vector;
+
+import java.util.*;
+public class VectorOpertion {
+
+	public static void main(String[] args) {
+		Vector V = new Vector();
+		Scanner in = new Scanner(System.in);
+		System.out.println(V);
+		
+		for(int i=0;i<V.size();i++) {
+			V.add(in.nextInt());
+		}
+
+
+
+	}
+
+}

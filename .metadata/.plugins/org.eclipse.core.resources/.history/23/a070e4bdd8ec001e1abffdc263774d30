@@ -1,0 +1,27 @@
+package com.JavaCollectionFramework.Vector;
+
+import java.util.*;
+public class VectorOpertion {
+
+	public static void main(String[] args) {
+
+		Vector V = new Vector();	
+		V.add("Y1");
+		V.add("Y2");
+		V.add("Y3");
+		
+		System.out.println(V);
+
+		Vector V2 = new Vector();	
+		V2.add("S1");
+		V2.add("S2");
+		V2.add("S3");
+		V2.add("S4");
+		System.out.println(V2);
+
+		V.add(V2.elements());
+		System.out.print(V);
+	}
+
+}
+

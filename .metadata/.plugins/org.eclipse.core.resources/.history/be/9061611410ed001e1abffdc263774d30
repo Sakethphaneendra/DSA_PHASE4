@@ -1,0 +1,14 @@
+
+//Write a Java program to create a vector and add elements to it dynamically. 
+//Display the elements of the vector.
+
+package com.JavaCollectionFramework.Vector;
+import java.util.*;
+public class VectorProgram1 {
+
+	public static void main(String[] args) {
+		Vector<Integer> V = new Vector<>();
+		V.add(12);
+	}
+
+}

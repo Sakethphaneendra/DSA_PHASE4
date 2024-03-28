@@ -1,0 +1,15 @@
+package com.JavaCollectionFramework.Vector;
+
+import java.util.*;
+public class VectorOpertion {
+
+	public static void main(String[] args) {
+		Vector V = new Vector();
+		System.out.println(V);
+		
+		V.add(1);
+
+
+	}
+
+}
