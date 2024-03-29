@@ -1,0 +1,17 @@
+package com.JavaCollectionFramework.Vector;
+import java.util.*;
+public class VectorSum {
+
+	public static void main(String[] args) {
+		Object[] arr = {1,35,64,2,54,23,43};
+		Vector<Integer> V = new Vector<>(Arrays.asList(arr));
+		int sum =0;
+		for(int num : V) {
+			sum+=num;
+		}
+		System.out.println("The Total Sum : "+sum);
+		
+		
+	}
+
+}

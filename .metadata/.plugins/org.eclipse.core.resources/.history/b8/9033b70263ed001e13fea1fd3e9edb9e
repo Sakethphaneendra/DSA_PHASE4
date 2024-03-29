@@ -1,0 +1,10 @@
+package com.JavaCollectionFramework.Vector;
+
+public class MergingSortedArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

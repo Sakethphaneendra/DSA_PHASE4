@@ -8,8 +8,10 @@ public class MaxElementInVector {
 		for(int i=0;i<V.capacity();i++) {
 			System.out.print("Enter the Element : ");
 			V.add(in.nextInt());
-		}
-
+		}in.close();
+		System.out.println("Array : " + V);
+		Collections.sort(V);
+		System.out.println(V.lastElement());
 	}
 
 }

@@ -1,0 +1,14 @@
+//Create a Java function to check if a given vector of strings contains a specific element.
+package com.JavaCollectionFramework.Vector;
+import java.util.*;
+public class VerficationVector {
+
+	public static void main(String[] args) {
+		Vector<String> v = new Vector<>(Arrays.asList("Saketh","Phone","Owl","Bat","Bus","Ballon"));
+	}
+	public static String pass() {
+		
+		return "";
+	}
+
+}
