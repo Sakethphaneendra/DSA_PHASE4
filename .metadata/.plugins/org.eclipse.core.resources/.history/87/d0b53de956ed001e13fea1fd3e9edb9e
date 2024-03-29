@@ -1,0 +1,25 @@
+package com.JavaCollectionFramework.Vector;
+import java.util.*;
+public class VectorSum {
+
+	public static void main(String[] args) {
+		Vector<Integer> V = new Vector<>();
+		V.add(3);
+		V.add(2);
+		V.add(5);
+		V.add(13);
+		V.add(6);
+		V.add(23);
+		int sum = 0;
+//		for(int i=1;i<V.size();i++) {
+//			sum+=V.get(i);
+//		}
+		for(int num : V) {
+			sum+=V.get(num);
+		}
+		System.out.println("The Total Sum : "+sum);
+		
+		
+	}
+
+}

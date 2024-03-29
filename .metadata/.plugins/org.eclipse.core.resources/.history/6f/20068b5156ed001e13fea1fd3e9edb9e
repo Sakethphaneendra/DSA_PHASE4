@@ -1,0 +1,11 @@
+package com.JavaCollectionFramework.Vector;
+import java.util.*;
+public class VectorSum {
+
+	public static void main(String[] args) {
+		Vector<Integer> V = new Vector<>();
+		Object[] arr = {1,3,6,8,9,0,4,2,4,6};
+		
+	}
+
+}

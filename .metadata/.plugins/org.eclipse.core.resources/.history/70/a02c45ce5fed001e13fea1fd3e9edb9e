@@ -1,0 +1,19 @@
+//Write a Java function to remove duplicate elements from a vector of strings and return 
+//the modified vector.
+package com.JavaCollectionFramework.Vector;
+import java.util.Arrays;
+import java.util.Vector;
+public class UnqiueElements {
+	public static void main(String[] args) {
+		Vector<Integer> V = new Vector<Integer>(Arrays.asList(2,4,5,2,53,5,4,1,43,2));
+		for(int i :V) {
+			for(int j : V) {
+				if(i==j) {
+					V.remove(i);
+				}
+			}
+		}
+		System.out.println(V);
+	}
+
+}
